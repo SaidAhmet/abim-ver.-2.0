@@ -1,0 +1,198 @@
+.cls{
+    clear: both;
+}
+
+body{
+    /* background-image: url(../abim2/images/formBg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    background-color: #f8edeb;
+}
+
+.main {
+    display: flex;
+    background-color: #fec89a;
+    align-items: center;
+}
+
+.main > * {
+    display: inline-flex;
+}
+
+.leftSide{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100px;
+}
+
+.leftSide img {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    /* height: 100px; */
+}
+
+.leftSide h1{
+    text-align: center;
+    width: 300px;
+    /* height: auto; */
+    padding-left: 15px;
+    /* height: 100px; */
+    padding-top: 5px;
+}
+
+.rightSide{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.rightSide div{
+    border: 5px #f9dcc4 solid;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: #f8edeb;
+    margin: 5px;
+}
+
+/* .rightSide button{
+    background-image: url(../abim2/images/pyLogo.jpg);
+    background-size: cover;
+    width: auto;    
+    height: 35px;
+    background-repeat: no-repeat;    
+} */
+
+.resumeSection{
+    background-color: #f9dcc4;
+    display: grid;
+    grid-template-columns: 180px 2fr 0%;
+    
+}
+
+.resumeSection img{
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.skills {
+    margin-top: 25px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 125px 2fr 125px 2fr;
+    grid-template-rows: repeat(2, auto);
+    box-sizing: border-box;
+    border: 5px #fec89a solid;
+    /* background-color: #fec89a; */
+    background-color: #f9dcc4;
+
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.skills h3{
+    border-bottom: 2px red solid;
+}
+
+.skills img{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px ;
+    border: 1px wheat solid;
+}
+
+.mainSection h2{
+    padding-left: 50px;
+    padding-top: 25px;
+    width: 96.8%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+.formBox{
+    background-image: url(../abim2/images/formBg.png);
+}
+
+.sugForm{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 30px );
+    row-gap: 8px;
+    align-items: center;
+    /* background-color: #d6ccc2; */
+    padding-top: 5px;
+    width: 100%;
+}
+
+.sugForm label{
+    width: 250px;
+    height: 25px;
+    margin-left: 43.2% ;
+    /* margin-top: 15px;
+    margin-bottom: 10px; */
+    border: 1px #b3702c solid;
+    padding-top: 10px;
+    background-color: #c8e7ff;
+    text-align: center;
+}
+
+.sugForm input{
+    width: 245px;
+    height: 30px;
+    margin-left: 43.2%;
+    background-color: #d0f4de;
+    border: 1px #dee2ff solid;
+}
+
+.sugForm input:focus{
+    outline: none;
+}
+
+#sug{
+    text-align: center;
+}
+
+.sugForm textarea{
+    width: 245px;
+    height: 100px;
+    margin-left: 43.2%;
+    resize: none;
+    background-color: #d0f4de;
+    border: 1px #dee2ff solid;
+}
+
+#sendBtn{
+    /* margin-top: 5px; */
+    width: 250px;
+    height: 50px;
+    margin-left: 43.2%;
+    background-color: #bee1e6;
+    font-size: large;
+}
+
+/* 
+.pySkillBox{
+    border: 2px aqua solid;
+}
+
+.jsSkillBox{
+    border: 2px aqua solid;
+}
+
+.csharpSkillBox{
+    border: 2px aqua solid;
+}
+
+.sqlSkillBox{
+    border: 2px aqua solid;
+} */
